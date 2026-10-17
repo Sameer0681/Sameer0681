@@ -1,125 +1,91 @@
-# Mohammad Sameer
+<h1 align="center">Mohammad Sameer</h1>
 
-### Aspiring Java Full Stack Developer
+<p align="center">
+  <b>Aspiring Java Full Stack Developer</b><br>
+  B.Tech Computer Science &amp; Engineering Student
+</p>
 
-I’m a Computer Science and Engineering student focused on building practical web applications using Java, Spring Boot, REST APIs, and databases. I’m continuously improving my backend development, problem-solving, and software engineering skills through hands-on projects.
+<p align="center">
+  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:YOUR_EMAIL_ADDRESS"><img src="https://img.shields.io/badge/Email-Contact-30363D?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-1F6FEB?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+</p>
 
-- **Focus:** Java backend development and full-stack web applications
-- **Currently learning:** Strengthening Java, Spring Boot, API design, and database fundamentals
-- **Interested in:** Clean code, maintainable architecture, and solving real-world problems
-- **Goal:** Grow into a skilled Java Full Stack Developer
+---
+
+## About
+
+I'm a Computer Science and Engineering student who enjoys turning ideas into working web applications. I can write Java and build basic Spring Boot CRUD APIs, and I'm working toward independently designing, implementing, debugging, and deploying real-world applications.
+
+I build projects to learn, and I'm looking for entry-level and internship opportunities in Java full stack development.
+
+## Current Focus
+
+- Strengthening core **Java** and object-oriented design
+- Building cleaner **Spring Boot** applications and **REST APIs**
+- Improving **database design** with MySQL and MongoDB
+- Connecting backend services to the **frontend**
+- Learning to debug and deploy applications independently
+
+**Objective:** Become a capable Java Full Stack Developer who can take a feature from idea to working, deployed software.
 
 ---
 
 ## Tech Stack
 
-**Languages**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-**Backend & APIs**
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_APIs-252525?style=flat-square&logo=fastapi&logoColor=white)
-
-**Frontend**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
-
-**Databases & Tools**
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+| Category | Technologies |
+|:--|:--|
+| **Languages** | ![Java](https://img.shields.io/badge/Java-161B22?style=flat-square&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C++-161B22?style=flat-square&logo=cplusplus&logoColor=00599C) ![JavaScript](https://img.shields.io/badge/JavaScript-161B22?style=flat-square&logo=javascript&logoColor=F7DF1E) |
+| **Backend** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-161B22?style=flat-square&logo=springboot&logoColor=6DB33F) ![REST APIs](https://img.shields.io/badge/REST_APIs-161B22?style=flat-square) ![CRUD](https://img.shields.io/badge/CRUD-161B22?style=flat-square) |
+| **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-161B22?style=flat-square&logo=html5&logoColor=E34F26) ![CSS3](https://img.shields.io/badge/CSS3-161B22?style=flat-square&logo=css3&logoColor=1572B6) ![JavaScript](https://img.shields.io/badge/JavaScript-161B22?style=flat-square&logo=javascript&logoColor=F7DF1E) ![Bootstrap](https://img.shields.io/badge/Bootstrap-161B22?style=flat-square&logo=bootstrap&logoColor=7952B3) |
+| **Databases** | ![MySQL](https://img.shields.io/badge/MySQL-161B22?style=flat-square&logo=mysql&logoColor=4479A1) ![MongoDB](https://img.shields.io/badge/MongoDB-161B22?style=flat-square&logo=mongodb&logoColor=47A248) |
+| **Tools** | ![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=F05032) ![GitHub](https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-161B22?style=flat-square&logoColor=white) |
 
 ---
 
 ## Featured Projects
 
-### 01. CivicResolve
-**Citizen Grievance Management System**
+### [CivicResolve](https://github.com/YOUR_GITHUB_USERNAME/YOUR_CIVICRESOLVE_REPO)
+A citizen grievance management project focused on complaint categorization, urgency and sentiment analysis, and escalation workflows. Some AI and escalation features have been developed; end-to-end integration is still being verified.
+<br>`Stack:` ADD_VERIFIED_TECHNOLOGIES
 
-A project focused on managing citizen complaints, categorizing grievances, and supporting complaint escalation workflows.
+### [Tool Ultima](https://github.com/YOUR_GITHUB_USERNAME/YOUR_TOOL_ULTIMA_REPO)
+A web-based productivity platform intended to offer a resume builder, portfolio builder, and resume checker. The frontend has been developed, and Spring Boot backend development is in progress.
+<br>`Stack:` HTML · CSS · JavaScript · Spring Boot
 
-- **Technical focus:** Java, Spring Boot, backend development, complaint management
-- **Highlights:** Grievance classification and escalation workflow development
-- **Repository:** [Add CivicResolve repository URL](YOUR_CIVICRESOLVE_REPOSITORY_URL)
+### [ViastaStore](https://github.com/YOUR_GITHUB_USERNAME/YOUR_VIASTASTORE_REPO)
+A clothing e-commerce website project that explores how a storefront frontend connects to a Java backend and a relational database.
+<br>`Stack:` HTML · CSS · JavaScript · Java · Spring Boot · MySQL
 
-### 02. Tool Ultima
-**Web-Based Productivity Tools Platform**
+### [PriceIQ](https://github.com/YOUR_GITHUB_USERNAME/YOUR_PRICEIQ_REPO)
+A mini-project exploring product data and machine learning for price prediction, built to practice data handling and basic modeling.
+<br>`Stack:` Python · pandas · NumPy · scikit-learn
 
-A platform concept for useful web tools, including resume building, portfolio building, and resume checking.
-
-- **Technical focus:** Frontend development and Spring Boot backend development
-- **Highlights:** Building practical tools through a unified web platform
-- **Repository:** [Add Tool Ultima repository URL](YOUR_TOOL_ULTIMA_REPOSITORY_URL)
-
-### 03. ViastaStore
-**E-Commerce Web Application**
-
-A clothing e-commerce project focused on presenting products through a responsive shopping interface.
-
-- **Technical focus:** HTML, CSS, JavaScript, Java, Spring Boot, MySQL
-- **Highlights:** Connecting a web interface with backend services and persistent data
-- **Repository:** [Add ViastaStore repository URL](YOUR_VIASTASTORE_REPOSITORY_URL)
-
-### 04. PriceIQ
-**Product Price Prediction — Mini Project**
-
-A mini-project exploring product price prediction using a dataset and machine learning tools.
-
-- **Technical focus:** Python, pandas, NumPy, scikit-learn
-- **Highlights:** Working with product data and exploring predictive modeling
-- **Repository:** [Add PriceIQ repository URL](YOUR_PRICEIQ_REPOSITORY_URL)
-
-### 05. Personal Portfolio
-**Developer Portfolio Website**
-
-A personal portfolio project intended to showcase my background, technical skills, projects, and development journey.
-
-- **Technical focus:** HTML, CSS, JavaScript, Spring Boot backend development
-- **Highlights:** Presenting projects and professional information in one place
-- **Repository:** [Add portfolio repository URL](YOUR_PORTFOLIO_REPOSITORY_URL)
-
-> Project descriptions reflect their intended scope and known development work. Features, completion status, and live deployments should be verified in each repository before being presented as finished.
+### [Personal Portfolio](https://github.com/YOUR_GITHUB_USERNAME/YOUR_PORTFOLIO_REPO)
+A developer portfolio website that presents my skills, projects, and background. The frontend has been developed, and a Spring Boot backend is being implemented.
+<br>`Stack:` HTML · CSS · JavaScript · Spring Boot
 
 ---
 
-## GitHub Statistics
-
-<!-- Replace YOUR_GITHUB_USERNAME with your GitHub username. -->
+## GitHub Stats
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github"
-    alt="GitHub profile statistics"
-  />
+  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=github_dark&hide_border=true" />
+  <img height="165" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&langs_count=6&theme=github_dark&hide_border=true" />
 </p>
+
+<sub>The language card reflects code composition across my public repositories, not programming proficiency. These cards come from a third-party service and may be cached or occasionally unavailable.</sub>
+
+---
+
+## Contact
+
+- LinkedIn: [YOUR_LINKEDIN_URL](YOUR_LINKEDIN_URL)
+- Email: [YOUR_EMAIL_ADDRESS](mailto:YOUR_EMAIL_ADDRESS)
+- Portfolio: [YOUR_PORTFOLIO_URL](YOUR_PORTFOLIO_URL)
+
+---
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true&theme=github_dark"
-    alt="Most-used languages in public repositories"
-  />
+  <i>Building one project at a time, and getting better with each commit.</i>
 </p>
-
-*Statistics depend on the provider's availability and its supported repository data. Language cards represent code composition, not proficiency; they do not measure private work, overall coding ability, or complete contribution history.*
-
----
-
-## Connect
-
-- **GitHub:** [YOUR_GITHUB_PROFILE_URL](YOUR_GITHUB_PROFILE_URL)
-- **LinkedIn:** [Add your LinkedIn profile URL](YOUR_LINKEDIN_PROFILE_URL)
-- **Portfolio:** [Add your live portfolio URL](YOUR_LIVE_PORTFOLIO_URL)
-- **Email:** [Add your professional email address](mailto:YOUR_EMAIL_ADDRESS)
-
----
-
-*Learning continuously. Building consistently. Improving one project at a time.*
