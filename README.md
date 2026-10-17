@@ -1,8 +1,14 @@
-<h1 align="center">Mohammad Sameer</h1>
+<div align="center">
+  <img src="./assets/banner.svg" alt="Mohammad Sameer, Aspiring Java Full Stack Developer" width="100%" />
+</div>
 
 <p align="center">
-  <b>Aspiring Java Full Stack Developer</b><br>
-  B.Tech Computer Science &amp; Engineering Student
+  <a href="#about">About</a> &nbsp;·&nbsp;
+  <a href="#focus">Focus</a> &nbsp;·&nbsp;
+  <a href="#tech-stack">Stack</a> &nbsp;·&nbsp;
+  <a href="#featured-projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#github-overview">Stats</a> &nbsp;·&nbsp;
+  <a href="#contact">Contact</a>
 </p>
 
 <p align="center">
@@ -17,17 +23,29 @@
 
 I'm a Computer Science and Engineering student who enjoys turning ideas into working web applications. I can write Java and build basic Spring Boot CRUD APIs, and I'm working toward independently designing, implementing, debugging, and deploying real-world applications.
 
-I build projects to learn, and I'm looking for entry-level and internship opportunities in Java full stack development.
+```java
+public class MohammadSameer {
+    String role       = "Aspiring Java Full Stack Developer";
+    String studying   = "B.Tech, Computer Science & Engineering";
+    String learning   = "Spring Boot, REST APIs, database design";
+    String building   = "Full stack projects with Java and Spring Boot";
+    String lookingFor = "Internships and entry-level opportunities";
+}
+```
 
-## Current Focus
+---
 
-- Strengthening core **Java** and object-oriented design
-- Building cleaner **Spring Boot** applications and **REST APIs**
-- Improving **database design** with MySQL and MongoDB
-- Connecting backend services to the **frontend**
-- Learning to debug and deploy applications independently
+## Focus
 
-**Objective:** Become a capable Java Full Stack Developer who can take a feature from idea to working, deployed software.
+| Area | What I'm working on |
+|:--|:--|
+| **Java** | Core Java and object-oriented design |
+| **Backend** | Cleaner Spring Boot applications and REST APIs |
+| **Data** | Database design with MySQL and MongoDB |
+| **Integration** | Connecting backend services to the frontend |
+| **Delivery** | Debugging and deploying applications independently |
+
+**Objective:** become a capable Java Full Stack Developer who can take a feature from idea to working, deployed software.
 
 ---
 
@@ -45,44 +63,60 @@ I build projects to learn, and I'm looking for entry-level and internship opport
 
 ## Featured Projects
 
-### [CivicResolve](https://github.com/YOUR_GITHUB_USERNAME/YOUR_CIVICRESOLVE_REPO)
-A citizen grievance management project focused on complaint categorization, urgency and sentiment analysis, and escalation workflows. Some AI and escalation features have been developed; end-to-end integration is still being verified.
-<br>`Stack:` ADD_VERIFIED_TECHNOLOGIES
+| 🏛️ &nbsp;**[CivicResolve](https://github.com/YOUR_GITHUB_USERNAME/YOUR_CIVICRESOLVE_REPO)** |
+|:--|
+| A citizen grievance management project focused on complaint categorization, urgency and sentiment analysis, and escalation workflows.<br><br>![Status](https://img.shields.io/badge/status-prototype-1F6FEB?style=flat-square) ![Note](https://img.shields.io/badge/integration-being_verified-30363D?style=flat-square)<br>**Stack:** ADD_VERIFIED_TECHNOLOGIES |
 
-### [Tool Ultima](https://github.com/YOUR_GITHUB_USERNAME/YOUR_TOOL_ULTIMA_REPO)
-A web-based productivity platform intended to offer a resume builder, portfolio builder, and resume checker. The frontend has been developed, and Spring Boot backend development is in progress.
-<br>`Stack:` HTML · CSS · JavaScript · Spring Boot
+| 🧰 &nbsp;**[Tool Ultima](https://github.com/YOUR_GITHUB_USERNAME/YOUR_TOOL_ULTIMA_REPO)** |
+|:--|
+| A web-based productivity platform intended to offer a resume builder, portfolio builder, and resume checker.<br><br>![Frontend](https://img.shields.io/badge/frontend-developed-238636?style=flat-square) ![Backend](https://img.shields.io/badge/backend-in_progress-1F6FEB?style=flat-square)<br>**Stack:** HTML · CSS · JavaScript · Spring Boot |
 
-### [ViastaStore](https://github.com/YOUR_GITHUB_USERNAME/YOUR_VIASTASTORE_REPO)
-A clothing e-commerce website project that explores how a storefront frontend connects to a Java backend and a relational database.
-<br>`Stack:` HTML · CSS · JavaScript · Java · Spring Boot · MySQL
+| 🛍️ &nbsp;**[ViastaStore](https://github.com/YOUR_GITHUB_USERNAME/YOUR_VIASTASTORE_REPO)** |
+|:--|
+| A clothing e-commerce website project exploring how a storefront frontend connects to a Java backend and a relational database.<br><br>![Type](https://img.shields.io/badge/type-learning_project-30363D?style=flat-square)<br>**Stack:** HTML · CSS · JavaScript · Java · Spring Boot · MySQL |
 
-### [PriceIQ](https://github.com/YOUR_GITHUB_USERNAME/YOUR_PRICEIQ_REPO)
-A mini-project exploring product data and machine learning for price prediction, built to practice data handling and basic modeling.
-<br>`Stack:` Python · pandas · NumPy · scikit-learn
+| 📈 &nbsp;**[PriceIQ](https://github.com/YOUR_GITHUB_USERNAME/YOUR_PRICEIQ_REPO)** |
+|:--|
+| A mini-project exploring product data and machine learning for price prediction, built to practice data handling and basic modeling.<br><br>![Type](https://img.shields.io/badge/type-mini_project-30363D?style=flat-square)<br>**Stack:** Python · pandas · NumPy · scikit-learn |
 
-### [Personal Portfolio](https://github.com/YOUR_GITHUB_USERNAME/YOUR_PORTFOLIO_REPO)
-A developer portfolio website that presents my skills, projects, and background. The frontend has been developed, and a Spring Boot backend is being implemented.
-<br>`Stack:` HTML · CSS · JavaScript · Spring Boot
+| 👤 &nbsp;**[Personal Portfolio](https://github.com/YOUR_GITHUB_USERNAME/YOUR_PORTFOLIO_REPO)** |
+|:--|
+| A developer portfolio website presenting my skills, projects, and background.<br><br>![Frontend](https://img.shields.io/badge/frontend-developed-238636?style=flat-square) ![Backend](https://img.shields.io/badge/backend-in_progress-1F6FEB?style=flat-square)<br>**Stack:** HTML · CSS · JavaScript · Spring Boot |
 
 ---
 
-## GitHub Stats
+## GitHub Overview
 
-<p align="center">
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=github_dark&hide_border=true" />
-  <img height="165" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&langs_count=6&theme=github_dark&hide_border=true" />
-</p>
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile details" width="100%" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most committed languages" width="100%" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repositories per language" width="100%" />
+    </td>
+  </tr>
+</table>
 
-<sub>The language card reflects code composition across my public repositories, not programming proficiency. These cards come from a third-party service and may be cached or occasionally unavailable.</sub>
+<sub>Language cards show code composition across my repositories, not programming proficiency. Cards are generated by a GitHub Action in this repository and refresh daily.</sub>
 
 ---
 
 ## Contact
 
-- LinkedIn: [YOUR_LINKEDIN_URL](YOUR_LINKEDIN_URL)
-- Email: [YOUR_EMAIL_ADDRESS](mailto:YOUR_EMAIL_ADDRESS)
-- Portfolio: [YOUR_PORTFOLIO_URL](YOUR_PORTFOLIO_URL)
+| | |
+|:--|:--|
+| **LinkedIn** | [YOUR_LINKEDIN_URL](YOUR_LINKEDIN_URL) |
+| **Email** | [YOUR_EMAIL_ADDRESS](mailto:YOUR_EMAIL_ADDRESS) |
+| **Portfolio** | [YOUR_PORTFOLIO_URL](YOUR_PORTFOLIO_URL) |
 
 ---
 
