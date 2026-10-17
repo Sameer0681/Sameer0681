@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Mohammad Sameer, Aspiring Java Full Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#161B22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1F6FEB"/>
+      <stop offset="1" stop-color="#58A6FF"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#21262D" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="12" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="12" fill="url(#grid)" opacity="0.6"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="12" fill="none" stroke="#30363D"/>
+
+  <!-- Left: name and headline -->
+  <rect x="64" y="64" width="56" height="4" rx="2" fill="url(#accent)"/>
+  <text x="64" y="132" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#F0F6FC">Mohammad Sameer</text>
+  <text x="64" y="178" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#58A6FF">Aspiring Java Full Stack Developer</text>
+  <text x="64" y="218" font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="15" fill="#8B949E">B.Tech CSE  ·  Spring Boot  ·  REST APIs  ·  MySQL</text>
+
+  <!-- Right: code window -->
+  <rect x="740" y="40" width="400" height="220" rx="10" fill="#0D1117" stroke="#30363D"/>
+  <circle cx="764" cy="62" r="5" fill="#30363D"/>
+  <circle cx="782" cy="62" r="5" fill="#30363D"/>
+  <circle cx="800" cy="62" r="5" fill="#30363D"/>
+  <g font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="15" fill="#C9D1D9">
+    <text x="764" y="104"><tspan fill="#FF7B72">public class</tspan> <tspan fill="#D2A8FF">Developer</tspan> {</text>
+    <text x="788" y="132"><tspan fill="#79C0FF">String</tspan> goal = <tspan fill="#A5D6FF">"Java Full Stack"</tspan>;</text>
+    <text x="788" y="160"><tspan fill="#FF7B72">void</tspan> <tspan fill="#D2A8FF">practice</tspan>() {</text>
+    <text x="812" y="188">build(); debug(); deploy();</text>
+    <text x="788" y="216">}</text>
+    <text x="764" y="244">}</text>
+  </g>
+</svg>
