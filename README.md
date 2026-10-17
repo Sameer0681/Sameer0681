@@ -32,16 +32,3 @@
     <td width="50%"></td>
   </tr>
 </table>
-
-<img src="./assets/h-stats.svg" alt="Stats" width="100%" />
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center"><img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="GitHub stats" width="100%" /></td>
-    <td width="50%" align="center"><img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most committed languages" width="100%" /></td>
-  </tr>
-</table>
-
-<p align="center">
-  <sub>Language cards show code composition, not proficiency. Generated daily by a GitHub Action in this repo.</sub>
-</p>

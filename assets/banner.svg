@@ -1,18 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Mohammad Sameer, Aspiring Java Full Stack Developer">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1117"/><stop offset="1" stop-color="#161B22"/></linearGradient>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1117"/><stop offset="1" stop-color="#121A2B"/></linearGradient>
 <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1F6FEB"/><stop offset="1" stop-color="#58A6FF"/></linearGradient>
-<pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#21262D"/></pattern></defs>
-<rect width="1200" height="300" rx="12" fill="url(#bg)"/><rect width="1200" height="300" rx="12" fill="url(#g)" opacity=".6"/>
+<linearGradient id="top0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8CC4FF"/><stop offset="1" stop-color="#3C8BF0"/></linearGradient>
+<linearGradient id="top1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6FB1FF"/><stop offset="1" stop-color="#2A74E0"/></linearGradient>
+<linearGradient id="top2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5AA2FA"/><stop offset="1" stop-color="#1F5FC8"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#1F6FEB" stop-opacity=".35"/><stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/></radialGradient>
+<radialGradient id="sh" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".55"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1B2433"/>
+<animateTransform attributeName="patternTransform" type="translate" from="0 0" to="40 40" dur="12s" repeatCount="indefinite"/></pattern>
+</defs>
+<style>
+.nm{font-family:'Segoe UI', Helvetica, Arial, sans-serif;font-size:56px;font-weight:800}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes mn{0%,100%{transform:translateY(0);opacity:.55}50%{transform:translateY(-14px);opacity:1}}
+@keyframes sh{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(.9);opacity:.6}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.f{animation:fl 5s ease-in-out infinite} .f0{animation-delay:0s} .f1{animation-delay:.5s} .f2{animation-delay:1s}
+.m{animation:mn 4s ease-in-out infinite} .m0{animation-delay:.2s} .m1{animation-delay:1.4s} .m2{animation-delay:2.4s}
+.sh{transform-box:fill-box;transform-origin:center;animation:sh 5s ease-in-out infinite}
+.r1{animation:rise 1s ease-out both} .r2{animation:rise 1s .25s ease-out both} .r3{animation:rise 1s .5s ease-out both}
+.bar{transform-box:fill-box;transform-origin:left;animation:bar 1s ease-out both}
+</style>
+<rect width="1200" height="300" rx="12" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="12" fill="url(#g)" opacity=".55"/>
+<ellipse cx="930" cy="150" rx="330" ry="170" fill="url(#glow)"/>
 <rect x=".5" y=".5" width="1199" height="299" rx="12" fill="none" stroke="#30363D"/>
-<rect x="64" y="72" width="56" height="4" rx="2" fill="url(#ac)"/>
-<text x="64" y="144" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#F0F6FC">Mohammad Sameer</text>
-<text x="64" y="192" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#58A6FF">Aspiring Java Full Stack Developer</text>
-<text x="64" y="232" font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="15" fill="#8B949E">B.Tech CSE  ·  Spring Boot  ·  REST APIs  ·  MySQL</text>
-<rect x="740" y="40" width="400" height="220" rx="10" fill="#0D1117" stroke="#30363D"/>
-<circle cx="764" cy="62" r="5" fill="#30363D"/><circle cx="782" cy="62" r="5" fill="#30363D"/><circle cx="800" cy="62" r="5" fill="#30363D"/>
-<g font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="15" fill="#C9D1D9">
-<text x="764" y="104"><tspan fill="#FF7B72">public class</tspan> <tspan fill="#D2A8FF">Developer</tspan> {</text>
-<text x="788" y="132"><tspan fill="#79C0FF">String</tspan> goal = <tspan fill="#A5D6FF">"Java Full Stack"</tspan>;</text>
-<text x="788" y="160"><tspan fill="#FF7B72">void</tspan> <tspan fill="#D2A8FF">practice</tspan>() {</text>
-<text x="812" y="188">build(); debug(); deploy();</text>
-<text x="788" y="216">}</text><text x="764" y="244">}</text></g></svg>
+
+<rect class="bar" x="64" y="72" width="64" height="4" rx="2" fill="url(#ac)"/>
+<g class="r1"><text x="68.8" y="146.8" class="nm" fill="#122B62">Mohammad Sameer</text><text x="68.0" y="146.0" class="nm" fill="#163574">Mohammad Sameer</text><text x="67.2" y="145.2" class="nm" fill="#1B4088">Mohammad Sameer</text><text x="66.4" y="144.4" class="nm" fill="#1F4B9C">Mohammad Sameer</text><text x="65.6" y="143.6" class="nm" fill="#2356B0">Mohammad Sameer</text><text x="64.8" y="142.8" class="nm" fill="#2762C4">Mohammad Sameer</text><text x="64" y="142" class="nm" fill="#F0F6FC">Mohammad Sameer</text></g>
+<text class="r2" x="64" y="202" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#58A6FF">Aspiring Java Full Stack Developer</text>
+<text class="r3" x="64" y="240" font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="15" fill="#8B949E">B.Tech CSE  ·  Spring Boot  ·  REST APIs  ·  MySQL</text>
+
+<ellipse class="sh" cx="930" cy="268" rx="150" ry="16" fill="url(#sh)"/>
+<g class="f f2">
+<polygon points="810,208 930,266 930,282 810,224" fill="#0F4BB5"/><polygon points="930,266 1050,208 1050,224 930,282" fill="#0A2F70"/>
+<polygon points="930,150 1050,208 930,266 810,208" fill="url(#top2)" stroke="#79B8FF" stroke-opacity=".7" stroke-width="1.2"/>
+<polyline points="870.0,179.0 930,208 990.0,179.0" fill="none" stroke="#fff" stroke-opacity=".18"/></g>
+<g class="f f1">
+<polygon points="810,146 930,204 930,220 810,162" fill="#0F4BB5"/><polygon points="930,204 1050,146 1050,162 930,220" fill="#0A2F70"/>
+<polygon points="930,88 1050,146 930,204 810,146" fill="url(#top1)" stroke="#79B8FF" stroke-opacity=".7" stroke-width="1.2"/>
+<polyline points="870.0,117.0 930,146 990.0,117.0" fill="none" stroke="#fff" stroke-opacity=".18"/></g>
+<g class="f f0">
+<polygon points="810,84 930,142 930,158 810,100" fill="#0F4BB5"/><polygon points="930,142 1050,84 1050,100 930,158" fill="#0A2F70"/>
+<polygon points="930,26 1050,84 930,142 810,84" fill="url(#top0)" stroke="#79B8FF" stroke-opacity=".7" stroke-width="1.2"/>
+<polyline points="870.0,55.0 930,84 990.0,55.0" fill="none" stroke="#fff" stroke-opacity=".18"/></g>
+<g class="m m0"><polygon points="1100,78 1110.392,84.0 1100,90 1089.608,84.0" fill="#9CCBFF"/>
+<polygon points="1089.608,84.0 1100,90 1100,102 1089.608,96.0" fill="#1F6FEB"/>
+<polygon points="1100,90 1110.392,84.0 1110.392,96.0 1100,102" fill="#0A2F70"/></g><g class="m m1"><polygon points="770,48 780.392,54.0 770,60 759.608,54.0" fill="#9CCBFF"/>
+<polygon points="759.608,54.0 770,60 770,72 759.608,66.0" fill="#1F6FEB"/>
+<polygon points="770,60 780.392,54.0 780.392,66.0 770,72" fill="#0A2F70"/></g><g transform="translate(36,38)"><g class="m m2"><polygon points="1080,203 1090.392,209.0 1080,215 1069.608,209.0" fill="#9CCBFF"/>
+<polygon points="1069.608,209.0 1080,215 1080,227 1069.608,221.0" fill="#1F6FEB"/>
+<polygon points="1080,215 1090.392,209.0 1090.392,221.0 1080,227" fill="#0A2F70"/></g></g>
+<g font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="12" fill="#8B949E" letter-spacing="1.5">
+<text x="1062" y="146">API</text><text x="1062" y="208">DB</text><text x="1062" y="84">UI</text></g>
+</svg>
